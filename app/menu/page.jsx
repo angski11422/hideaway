@@ -1,6 +1,6 @@
 export default function Menu() {
   return (
-    <div>
+    <div className="flex min-h-screen flex-col items-center justify-between p-24 bg-pink-300">
       <h1>Menu</h1>
       <div>
         <h2>Appetizers</h2>
