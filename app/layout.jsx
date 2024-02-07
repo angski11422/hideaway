@@ -1,10 +1,10 @@
-import { Inter } from "next/font/google";
+import { Rokkitt } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import AdBanner from "./components/adbanner";
 
-const inter = Inter({ subsets: ["latin"] });
+const rokkitt = Rokkitt({ subsets: ["latin"] });
 
 export const metadata = {
   title: "The Hideaway Bar",
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={rokkitt.className}>
         <Navbar />
         <AdBanner />
         {children}
