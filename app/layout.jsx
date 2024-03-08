@@ -16,10 +16,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={rokkitt.className}>
-        <Navbar />
-        <AdBanner />
+        {/* <Navbar />
+        <AdBanner /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
